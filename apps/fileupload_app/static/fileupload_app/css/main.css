@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.wrapper{
+    width: 970px;
+    margin:auto;
+    padding:20px;
+}
+
+form, h1{
+    width:400px;
+    margin:auto;
+    padding:20px;
+}
+
+/* .green{
+    color:#5cb85c;
+}
+
+.red{
+    color:#d9534f;
+} */

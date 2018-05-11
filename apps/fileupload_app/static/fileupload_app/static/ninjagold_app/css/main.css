@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.wrapper{
+    width: 970px;
+    margin:auto;
+    padding:20px;
+}
+
+.header p{
+    display: inline-block;
+}
+
+.reset{
+    padding:0px;
+    border:none;
+    margin:0px 0px 0px 10px;
+    vertical-align: top;
+    width:60px;
+}
+
+form{
+    display: inline-block;
+    width: 23%;
+    margin:1%;
+    text-align: center;
+    padding: 20px;
+    border:1px solid silver;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+.your-gold{
+    display: inline-block;
+    width:100px;
+    padding: 5px;
+    border:1px solid silver;
+}
+
+.activities{
+    height:100px;
+    border:1px solid silver;
+    margin:1%;
+    overflow: scroll;
+    padding:5px;
+}
+
+.activities p{
+    margin:0px;
+}
+
+.act-header{
+    margin:1%;
+}
+
+.green{
+    color:#5cb85c;
+}
+
+.red{
+    color:#d9534f;
+}

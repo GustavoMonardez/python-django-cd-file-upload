@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Upload File</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'fileupload_app/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'fileupload_app/css/main.css' %}">
+</head>
+<body>
+    <div class="wrapper">   
+        <h1>Upload File</h1>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input name="file" type="file">
+            <input type="hidden" name="title" value="image">
+            <button type="submit" class="btn btn-primary">Upload File</button>
+        </form>
+    </div>
+</body>
+</html>
